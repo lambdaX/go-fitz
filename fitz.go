@@ -1,7 +1,7 @@
 package fitz
 
 // #include <mupdf/fitz.h>
-// #cgo LDFLAGS: -lmupdf -lmujs -lopenjpeg -ljbig2dec -lz -lm -lfreetype -ljpeg -lpng -lbz2
+// #cgo LDFLAGS: -lmupdf -lmupdfthird
 // const char *fz_version = FZ_VERSION;
 import "C"
 
